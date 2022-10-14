@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O que é HTML e principais tags!</title>
+</head>
+<body>
+    <header>
+        <h1 id="inicio">O que é HTML e principais tags!</h1>
+        <hr />
+        <h3>Índice:</h3>
+        <ol>
+            <li><a href="#oque">HTML: o que é?</a></li>
+            <li><a href="#estrutura">Tags da estrutura principal</a></li>
+            <li><a href="#texto">Tags do texto</a></li>
+            <li><a href="referencias">Referências</a></li>
+        </ol>
+    </header>
+    <main>
+        <div id="oque">
+            <h2>O que é <abbr title="Hypertext Markup Language">HTML</abbr>?</h2>
+            ( <a href="#inicio" title="Voltar para o ínicio da página">Voltar<sup>*</sup></a> )
+            <p>
+                HTML é a sigla para <i>Hypertext Markup Language</i>, que em português significa <mark>"Linguagem de marcação de HiperTexto"</mark>. Apesar de algumas
+                pessoas confundirem, HTML não é uma linguagem de programação, mas uma linguagem de marcação, como seu próprio nome sugere. Em outras palavras,
+                essa linguagem não utiliza lógica matemática (cálculos) e nem variáveis em sua estrutura.
+            </p>
+            <p>
+                Seu papel é identificar as partes de uma página ao navegador, como por exemplo: o que, dentro da página, é o título principal,
+                o que é um link e para onde direciona, o que é o cabeçalho ou rodapé, e assim por diante. 
+            </p>
+        </div>
+        <div id="estrutura">
+            <h2>Tags da estrutura principal:</h2>
+            ( <a href="#inicio" title="Voltar para o ínicio da página">Voltar<sup>*</sup></a> )
+            <p>
+                As tags principais do HTML, isto é, as que formam a estrutura da página, são:
+                <ul>
+                    <li>
+                        <p>
+                            <b><i>!Doctype html</i>:</b>
+                            Indica ao navegador que o arquivo é um documento HTML.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <b><i>html</i>:</b>
+                            É uma das tags da linguagem que possui abertura e fechamento, serve para iniciar e fechar o documento HTML.
+                        </p>
+                    </li>
+                    <li>
+                         <b><i>head</i>:</b>
+                        Significa "cabeça", e é onde se colocam algumas informações importantes, como o título da página (aquele que
+                        aparece na aba do navegador), favicon (o símbolo/logo que identifica uma marca), e por aí vai.   
+                    </li>
+                    <li>
+                        <p>
+                            <b><i>body</i>:</b>
+                            Significa "corpo" e é onde se posicionam, em excessência, todas as outras tags da página.
+                        </p>
+                        <ul>
+                            <p>Algumas tags que podem ser utilizadas dentro de body para um código semântico são:</p>
+                            <li><b><i>header</i>:</b>
+                                Significa "cabeçalho", e pode ser utilizada para delimitar o cabeçalho da página. Por exemplo, título, descrição
+                                e menu de navegação.
+                            </li>
+                            <li><b><i>main</i>:</b>
+                                é utilizada para demarcar a área principal da página.
+                            </li>
+                            <li><b><i>footer</i>:</b>
+                                Significa "rodapé" e pode ser utilizado para marcar o rodapé da página, como também de elementos dentro da página,
+                                como divs, por exemplo.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Veja no exemplo a seguir essas tags no código:
+            </p>
+            <blockquote>
+                <img src="img/Screenshot_1.png" title="Tags da estrutura principal" />
+            </blockquote>
+            <p>
+                E como esse código é interpretado pelo navegador:
+            </p>
+            <blockquote>
+                <img src="img/Screenshot_2.png" title="Página interpretada pelo navegador" />
+            </blockquote>
+        </div>
+        <div id="texto">
+            <h2>Tags do Texto</h2>
+            ( <a href="#inicio" title="Voltar para o ínicio da página">Voltar<sup>*</sup></a> )
+            <p>
+                Para estilizar a escrita e tornar o conteúdo mais apresentável e organizado, existem algumas tags que podem auxiliar:
+            </p>
+            <ul>
+                <li><b><i>h1, h2, h3, h4, h5, h6</i>:</b>
+                    São utilizados para demarcar títulos, sendo o h1 o título principal, e os demais, representando títulos menores;
+                </li>
+                <li><b><i>p</i>:</b>
+                    Demarca parágrafos;
+                </li>
+                <li><b><i>br</i>:</b>
+                    Representa um espaço, ou quebra de linha;
+                </li>
+                <li><b><i>b</i> ou <i>strong</i>:</b>
+                    marcam o texto em negrito;
+                </li>
+                <li><b><i>i</i>:</b>
+                    marca o texto em itálico;
+                </li>
+                <li><b><i>strike ou del</i>:</b>
+                    risca o texto, pode ser utilizado para dizer que uma informação não é mais válida;
+                </li>
+                <li><b><i>blockquote</i>:</b>
+                    utilizado para destacar um bloco de texto;
+                </li>
+                <li><b><i></i>:</b></li>
+            </ul>
+            <p>
+                Veja essas tags no código:
+            </p>
+            <blockquote>
+                <img src="img/Screenshot_3.png" title="tags para estilizar texto no código html" />
+            </blockquote>
+            <p>
+                E no navegador:
+            </p>
+            <blockquote>
+                <img src="img/Screenshot_4.png" title="tags do texto vistas no navegador" />
+            </blockquote>
+        </div>
+    </main>
+    <footer>
+        <div id="referencias">
+            <h4>Referências:</h4>
+            ( <a href="#inicio" title="Voltar para o ínicio da página">Voltar<sup>*</sup></a> )
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN Web Docs</a></li>
+                <li><a href="https://www.w3schools.com/html/default.asp">w3schools</a></li>
+            </u>
+        </div>
+        <hr />
+        <div id="creditos">
+            <small>Desenvolvido com <sub>♥</sub> por Milla Thomaz</small>
+        </div>
+    </footer>
+</body>
+</html>
